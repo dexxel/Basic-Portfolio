@@ -1,0 +1,138 @@
+
+body {
+	margin: 0;
+	background-image:url("/Users/alejandrosandoval/basic-portfolio/images/what-the-hex.png");
+	font-weight: 800;
+}
+
+.container {
+	width: auto;
+    margin: 0 auto;
+}
+
+header {
+  background:white;
+  border-style:solid;
+  border-width: 0 0 2px 0;
+  border-color: #e7e7e7;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  text-align:center;
+  background-color:#4aaaa5;
+  width:265px;
+  border:0px;
+  padding:40px;
+  margin:0px;
+  margin-left:50px;
+  color:white;
+  font-family:Georgia, Times, "Times New Roman", serif;
+  font-weight:bold;
+}
+
+nav {
+  float: right;
+  list-style: none;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  
+  display: inline-block;   
+  margin: 0 30px 0;
+  padding-top: 45px;
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative; 
+  font-weight:normal;
+  
+}
+
+nav a {
+  color: #e7e7e7;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+}
+
+nav a:hover {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #4aaaa5;
+}
+
+article {
+    height:auto;
+    width:960px;
+    background-color:#ffffff;
+    border-color:#dddddd;
+    margin:50px 50px 50px 50px;
+    padding:40px 30px 40px 30px;
+    display:inline-block;
+    overflow:none;
+}
+
+section h1 {
+    color:#4aaaa5;
+    text-align:left;
+    display:inline-block;
+    margin:30px;
+    font-size:45px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+}
+
+section hr {
+    border:none;
+    height: 3px;
+    color:rgba(183, 178, 178, 0.867);
+    background-color: #e7e7e7;
+}
+section p {
+    color:#777777;
+    font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 55px;
+    font-weight:normal;
+}
+.img {
+    float: left;
+    margin:4px 10px 0px 0px;
+    width: 210px; height: 260px;
+    border: none;
+}
+footer {
+    text-align:center;
+    font-size:10px;
+    color:white;
+    background-color:#666666;
+    border-top-width: 10px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    width:100%;
+    height: 40px;
+    right:0;
+    left:0;
+    bottom:0;
+    position:relative;
+    padding-top: 10px;
+}
+li::after { 
+    text-decoration: none;
+    text-transform: uppercase;
+    content:"";
+    border-right: 1px solid #e7e7e7;
+    padding:0 25px 0 ;
+    margin: 2px;
+}
