@@ -142,18 +142,6 @@ div.gallery img {
     height: auto;
 }
 
-div.btn {
-    padding: 15px;
-    background-color: black;
-    text-align: center;
-}
-
-div.btn:hover{
-
-  background-color: black;
-
-}
-
 .imagesizes {
   display:inline-block
 }
