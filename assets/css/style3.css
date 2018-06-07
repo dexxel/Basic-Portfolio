@@ -117,10 +117,12 @@ footer {
 }
 
 li::after { 
+    text-decoration: none;
+    text-transform: uppercase;
     content:"";
     border-right: 1px solid #e7e7e7;
-    padding:0 20px 0 ;
-    margin: 2x;
+    padding:0 25px 0 ;
+    margin: 2px;
 }
 
 
