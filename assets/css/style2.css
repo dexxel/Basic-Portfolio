@@ -102,11 +102,6 @@ article p {
     line-height: 35px;
     font-weight:normal;
 }
-.img {
-    float: left;
-    margin:4px 10px 0px 0px;
-    border: none;
-}
 footer {
     text-align:center;
     font-size:10px;
